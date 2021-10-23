@@ -1,0 +1,22 @@
+.modal {
+  position: fixed;
+  top: 100px;
+  right: -500px;
+
+  padding: 40px 20px;
+
+  background: $primary;
+  border-radius: 10px;
+  transition: ease-in-out .3s;
+
+  z-index: 1000;
+
+  span {
+    color: $white;
+    font-size: 18px;
+  }
+
+  &.show {
+    right: 100px;
+  }
+}

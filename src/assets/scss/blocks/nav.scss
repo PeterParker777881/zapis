@@ -1,0 +1,46 @@
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav__group {
+    margin-right: 64px;
+    
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.nav__link {
+    font-size: 15px;
+    color: $dark-blue;
+    
+    transition: all .2s;
+    
+    & + & {
+        margin-left: 24px;
+    }
+    
+    &--primary {
+        display: flex;
+        align-items: center;
+    }
+    
+    span {
+        display: block;
+        padding-top: 2px;
+        
+        font-family: $m-m;
+        font-weight: 500;
+        color: $primary;
+    }
+    
+    &:hover {
+        color: $primary;
+    }
+}
+
+.nav__link-icon {
+    display: block;
+    margin-right: 8px;
+}

@@ -1,0 +1,178 @@
+.popular__inner {
+    padding: 32px 0 50px;
+}
+
+.popular__info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.popular__title {
+    margin-right: 10px;
+    max-width: 273px;
+    width: 100%;
+    
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    color: $dark-blue;
+}
+
+.popular__link {
+    font-size: 15px;
+    line-height: 30px;
+    color: $primary;
+    
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.popular__slider {
+    display: flex;
+    justify-content: space-between;
+}
+
+.popular__item {
+    max-width: 278px;
+    margin: 0 auto;
+    
+    border-radius: 8px;
+    
+    border: .3px solid rgba(0, 0, 0, .05);
+    background: $white;
+
+    cursor: pointer;
+    transition: all .2s;
+
+    &:hover {
+        background:darken($white, 3);
+    }
+}
+
+.popular__preview-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.popular__item-content {
+    padding: 16px 24px 24px;
+}
+
+.popular__item-info {
+    margin-bottom: 24px;
+}
+
+.pupular__item-suptitle {
+    margin-bottom: 12px;
+    display: block;
+    
+    font-size: 15px;
+    line-height: 22px;
+    color: $light;
+}
+
+.popular__item-title {
+    margin-bottom: 16px;
+    display: block;
+    
+    font-size: 18px;
+    line-height: 22px;
+    color: $dark-blue;
+}
+
+.popular__item-adress {
+    font-size: 14px;
+    line-height: 21px;
+    color: $light;
+}
+
+.popular__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popular__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.popular__prices {
+    display: flex;
+    margin-right: 16px;
+}
+
+.popular__price {
+    & + & {
+        margin-left: 6px;
+    }
+}
+
+.popular__sters {
+    display: flex;
+}
+
+.popular__star {
+    & + & {
+        margin-left: 4px;
+    }
+}
+
+.popular__people {
+    display: flex;
+    align-items: center;
+    
+    span {
+        display: flex;
+        margin-right: 7px;
+    }
+}
+
+.popular__people-icon {
+    display: block;
+}
+
+.popular__slider-arrow {
+    padding: 10px 9px;
+    width: 32px;
+    height: 32px;
+    
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -48px;
+    
+    border-radius: 50%;
+    background: $primary;
+    
+    img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+    
+    &--next {
+        left: auto;
+        right: -48px;
+        
+        img {
+            transform: rotate(180deg);
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
